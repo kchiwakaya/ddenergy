@@ -4,6 +4,7 @@ import dummyProducts from './productlist'; // {{ edit_3 }}
 
 const Products = () => { // {{ edit_4 }}
   return (
+    <div className='container'>
     <Row className="d-flex justify-content-center"> 
       {dummyProducts.map((product) => ( // {{ edit_6 }}
         <Col xs={12} sm={6} md={4} key={product.id} className="mb-4 p-2">
@@ -22,6 +23,7 @@ const Products = () => { // {{ edit_4 }}
         </Col>
       ))}
     </Row>
+    </div>
   );
 };
 

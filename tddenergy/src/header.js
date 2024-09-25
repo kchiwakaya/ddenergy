@@ -35,9 +35,7 @@ const Header = ({ isLoggedIn, onLogout }) => (
                                 <li><Link className="dropdown-item" to="/book-appointment">Book Appointment</Link></li>
                             </ul>
                         </li>
-                        <li className="nav-item">
-                            <Link className="nav-link" to="/login">Login</Link>
-                        </li>
+                     
                     </ul>
                 </div>
             </div>
