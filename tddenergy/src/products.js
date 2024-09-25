@@ -1,6 +1,7 @@
 import React from 'react'; // {{ edit_1 }}
 import { Card, Button, Row, Col } from 'react-bootstrap'; // {{ edit_2 }}
 import dummyProducts from './productlist'; // {{ edit_3 }}
+import { Link } from 'react-router-dom'; // {{ edit_1 }}
 
 const Products = () => { // {{ edit_4 }}
   return (
@@ -17,7 +18,9 @@ const Products = () => { // {{ edit_4 }}
             <Card.Body>
               <Card.Title>{product.name}</Card.Title>
               <Card.Text>{product.description}</Card.Text>
-              <Button variant="primary" href={`/product/${product.id}`}>View Details</Button> {/* {{ edit_9 }} */}
+              <Link to={`/product/${product.id}`}>
+                <Button variant="primary">View Details</Button>
+              </Link> {/* {{ edit_9 }} */}
             </Card.Body>
           </Card>
         </Col>
