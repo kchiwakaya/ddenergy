@@ -4,6 +4,7 @@ import Header from './header';
 import Products from './products';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ProductDetail from './ProductDetail';
+import Footer from './footer';
 const App = () => {
   return (
     <Router>
@@ -17,6 +18,7 @@ const App = () => {
           
          
         </Routes>
+        <Footer />
       </div>
     </Router>
   );
