@@ -19,11 +19,9 @@ const Header = ({ isLoggedIn, onLogout }) => (
                             <Link className="nav-link active" aria-current="page" to="/">Home</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/features">Features</Link>
+                            <Link className="nav-link" to="/gallery">Gallery</Link>  
                         </li>
-                        <li className="nav-item">
-                            <Link className="nav-link" to="/pricing">Pricing</Link>
-                        </li>
+                        
                         
                     </ul>
                 </div>
