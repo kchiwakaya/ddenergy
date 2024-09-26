@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import logo from "./logo.svg";
+import logo from "./logo1.png";
 import './header.css';
 
 const Header = ({ isLoggedIn, onLogout }) => (
@@ -24,18 +24,7 @@ const Header = ({ isLoggedIn, onLogout }) => (
                         <li className="nav-item">
                             <Link className="nav-link" to="/pricing">Pricing</Link>
                         </li>
-                        <li className="nav-item dropdown">
-                            <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Add New
-                            </a>
-                            <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <li><Link className="dropdown-item" to="/add-style">Add New Style</Link></li>
-                                <li><Link className="dropdown-item" to="/add-appointment">Add New Appointment</Link></li>
-                                <li><Link className="dropdown-item" to="/add-customer">Add New Customer</Link></li>
-                                <li><Link className="dropdown-item" to="/book-appointment">Book Appointment</Link></li>
-                            </ul>
-                        </li>
-                     
+                        
                     </ul>
                 </div>
             </div>
