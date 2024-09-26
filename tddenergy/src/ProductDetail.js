@@ -23,7 +23,7 @@ const ProductDetail = () => { // {{ edit_5 }}
           <Card.Text>
             <strong>Description:</strong> {product.description} {/* {{ edit_13 }} */}
           </Card.Text>
-          <Button variant="primary" href="/">Back to Products</Button> {/* {{ edit_14 }} */}
+          <Button variant="primary" href="/contact">Request Quotation</Button> {/* {{ edit_14 }} */}
         </Card.Body>
       </Card>
     </div>
