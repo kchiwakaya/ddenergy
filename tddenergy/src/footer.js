@@ -2,10 +2,14 @@ import React from 'react'; // {{ edit_1 }}
 
 const Footer = () => { // {{ edit_2 }}
   return ( // {{ edit_3 }}
+    <>
+    <br/>
+    <hr/>
     <footer id="footer" className="footer bg-dark text-white" > 
 
     <div className="container footer-top">
               <div className="row gy-4">
+             
         <div className="col-lg-4 col-md-6 footer-about">
           <a href="index.html" className="d-flex align-items-center">
             <span className="sitename">RDD Energy</span>
@@ -38,11 +42,11 @@ const Footer = () => { // {{ edit_2 }}
         <div className="col-lg-4 col-md-12">
           <h4>Follow Us</h4>
           <div className="social-links d-flex">
-            <a href="https://www.facebook.com/profile.php?id=100069970280249"><i className="bi bi-twitter"></i></a>
-            <a href="https://www.facebook.com/profile.php?id=100069970280249"><i className="bi bi-facebook"></i></a>
+  
+            <a href="https://www.facebook.com/profile.php?id=100069970280249"><i className="bi bi-facebook">Facebook</i></a>
             
           </div>
-        </div>
+        </div>  
 
       </div>
     </div>
@@ -56,6 +60,7 @@ const Footer = () => { // {{ edit_2 }}
     </div>
 
   </footer>
+  </>
   ); 
 }; 
 

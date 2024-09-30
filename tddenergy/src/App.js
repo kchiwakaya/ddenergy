@@ -6,7 +6,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import ProductDetail from './ProductDetail';
 import Footer from './footer';
 import QuotationRequestForm from './contact';
-import ImageCarousel from './gallery';  // Import the ImageCarousel component
 import About from './about'; // {{ edit_2 }}
 
 const App = () => {
@@ -18,7 +17,6 @@ const App = () => {
           <Route path="/" element={<Products />} />
           <Route path="/product/:id" element={<ProductDetail />} />
           <Route path="/contact" element={<QuotationRequestForm />} />
-          <Route path="/gallery" element={<ImageCarousel />} /> 
           <Route path="/about" element={<About />} />
         </Routes>
         <Footer />
