@@ -5,15 +5,15 @@ import { Link } from 'react-router-dom'; // {{ edit_1 }}
 
 const Products = () => { // {{ edit_4 }}
   return (
-    <div className='container'>
+    <div className='container d-flex justify-content-center'>
     <Row className="d-flex justify-content-center"> 
       {dummyProducts.map((product) => ( // {{ edit_6 }}
         <Col xs={12} sm={6} md={4} key={product.id} className="mb-4 p-2">
-          <Card style={{ width: '100%' }}>
+          <Card style={{ width: '100x' }}>
             <Card.Img 
               variant="top" 
               src={product.image} 
-              style={{ height: '200px', objectFit: 'cover' }} // {{ edit_8 }}
+              className="img-fluid" // {{ edit_8 }}
             />
             <Card.Body>
               <Card.Title>{product.name}</Card.Title>
