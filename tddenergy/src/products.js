@@ -13,7 +13,7 @@ const Products = () => { // {{ edit_4 }}
             <Card.Img 
               variant="top" 
               src={product.image} 
-              className="img-fluid" // {{ edit_8 }}
+              style={{ height: '200px', width: '100%', objectFit: 'cover'}} // {{ edit_8 }}
             />
             <Card.Body>
               <Card.Title>{product.name}</Card.Title>
